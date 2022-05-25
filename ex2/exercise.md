@@ -29,6 +29,8 @@ As this is audio data, feature extraction is a requirement before we can actuall
 
 This code generates different features, very simple ones containing just BeatsPerMinute, to more advanced ones based on advanced signal processing.  You shall work with all of them, and likely will see very different results.
 
+---
+
 For the Music&Image datasets, you shall also add an analysis of the confusion matrix for these datasets. It is sufficient, to provide one confusion matrix per feature set, you can select either the best classifier that you had on that feature set, or also other interesting ones.
 
 ## Links for python
