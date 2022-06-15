@@ -1,0 +1,29 @@
+- Operating System: Ubuntu 20.04
+- IDE: Pycharm
+- Python Version: Python 3.8
+- Random State: 11776836
+
+The learning data was split into a 1/3 test-set and 2/3 training-set. I trained 4 different algorithms.
+I used my matriculation number as random state.
+
+- k-NN (2 neighbours)
+- k-NN (4 neighbours)
+- k-NN (6 neighbours)
+- Decision Tree (None max features)
+- Decision Tree (sqrt max features)
+- Decision Tree (log2 max features)
+- SVM (SVC)
+- Random Forests (10 trees, `sqrt` max features)
+- Random Forests (10 trees, `log2` max features)
+- Random Forests (50 trees, `sqrt` max features)
+- Random Forests (50 trees, `log2` max features)
+- Random Forests (100 trees, `sqrt` max features)
+- Random Forests (100 trees, `log` max features)
+
+k-NN (6 neighbours) achieved the best results. An accuracy score of k-NN (6 neighbours) 0.9573 and a f1-score of 0.9417 was achieved.
+
+I chose the algorithm with the best score, either f1 or accuracy.
+
+- Algorithm: kNN
+
+I retrained k-NN (6 neighbours) and used it on the test-set.
